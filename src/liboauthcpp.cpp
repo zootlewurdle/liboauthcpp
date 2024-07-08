@@ -25,7 +25,7 @@ namespace Defaults
     const std::string VERIFIER_KEY = "oauth_verifier";
 
     const std::string AUTHHEADER_FIELD = "Authorization: ";
-    const std::string AUTHHEADER_PREFIX = "OAuth ";
+    const std::string AUTHHEADER_PREFIX = "OAuth realm=\"\",";
 };
 
 /** std::string -> std::string conversion function */
